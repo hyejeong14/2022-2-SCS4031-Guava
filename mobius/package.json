@@ -1,0 +1,21 @@
+{
+  "name": "mobius-thyme",
+  "version": "1.0.0",
+  "description": "mobius-thyme",
+  "engines": {
+    "node": "10.15.0",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "node index.js"
+  },
+  "author": "Seunghwan Lee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}

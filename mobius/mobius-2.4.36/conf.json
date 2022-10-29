@@ -1,0 +1,20 @@
+{
+    "csebase": "onem2m",
+    "cseid": "/onem2m",
+    "csebaseport": "7579",
+    "csetype": "in",
+    "dbhost": "localhost",
+    "dbuser": "root",
+    "dbpass": "sungho2833", 
+    "dbname": "mobiusdb", 
+    "superadm_usr": "superadmin",
+    "superadm_pwd": "f7c6c12d",
+    "pxymqttport": 7580,
+    "pxycoapport": 5683,
+    "pxywsport": 7577,
+    "tsagentport": 7582,
+    "mqttbroker": "localhost",
+    "secure": "disable",
+    "authorization": true,
+    "logDir": "./log"  
+ }
