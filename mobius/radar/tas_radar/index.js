@@ -62,7 +62,7 @@ const tasHandler = (data, asClient) => {
                 // var send = JSON.stringify(parseRadarData(data)).replace(/"([^"]+)":/g, '$1:');
                 // client.write(JSON.stringify(cin).replace(/\\"/g, "'") + '<EOF>');
 
-                var cin = { ctname: 'radar', con: data };
+                var cin = { ctname: 'dht11', con: data };
 
                 asClient.write(JSON.stringify(cin) + '<EOF>');
             }

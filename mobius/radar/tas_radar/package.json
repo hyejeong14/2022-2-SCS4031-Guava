@@ -1,7 +1,7 @@
 {
-  "name": "tas-radar",
+  "name": "dht11",
   "version": "1.0.0",
-  "description": "tas-radar",
+  "description": "temperature",
   "engines": {
     "node": "10.15.0",
     "npm": "6.9.0"
@@ -9,7 +9,7 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "Seunghwan Lee",
+  "author": "2022guava",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
